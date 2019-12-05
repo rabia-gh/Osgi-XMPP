@@ -11,8 +11,11 @@
 
 ## Création des bundles
 créer le bundle osgi-client-XMPP osgi-client-XMPP>mvn clean install
+
 créer le bundle osgi-EventAdapter osgi-EventAdapter>mvn clean install
+
 créer le bundle osgi-EventAdmin osgi-EventAdmin>mvn clean install
+
 ## Exécution des bundles
 1)Lancer OSGi: java -jar org.eclipse.equinox.launcher_1.5.500.v20190715-1310.jar -console
 
